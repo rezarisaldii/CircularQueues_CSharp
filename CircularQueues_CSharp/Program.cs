@@ -45,6 +45,10 @@ namespace CircularQueues_CSharp
             /*Once the position of the REAR is dtermined, the element is added at its proper place.*/
             queue_array[REAR] = element;
         }
+        public void remove()
+        {
+
+        }
 
     }
     internal class Program
