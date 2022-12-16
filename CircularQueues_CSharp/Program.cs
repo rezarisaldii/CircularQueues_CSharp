@@ -70,9 +70,11 @@ namespace CircularQueues_CSharp
                     /*FRONT is incremented by one if it is not the first element of array. */
                     FRONT = FRONT + 1;
             }
+        }
+        public void display()
+        {
 
         }
-
     }
     internal class Program
     {
